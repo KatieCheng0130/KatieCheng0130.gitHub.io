@@ -626,6 +626,14 @@ progress {
   color: #6c757d;
 }
 
+
+.portfolio-img {
+    width: 100%;
+    height: 300px; /* Adjust the height as needed */
+    object-fit: cover;
+}
+
+
 .container,
 .container-fluid,
 .container-xxl,
