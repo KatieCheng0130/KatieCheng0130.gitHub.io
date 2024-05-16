@@ -629,7 +629,7 @@ progress {
 
 .portfolio-img {
     width: 90%;
-    height: 190px; /* Adjust the height as needed */
+    height: 220px; /* Adjust the height as needed */
     object-fit: cover;
 }
 
