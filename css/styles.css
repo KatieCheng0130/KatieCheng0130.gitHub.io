@@ -3160,24 +3160,6 @@ textarea.form-control-lg {
   --bs-btn-border-radius: 0.25rem;
 }
 
-. circles li:nth-child(7) {
-    left: 35%;
-    width: 150px;
-    height: 150px;
-    animation-delay: 7s;
-}
-
-.circles li {
-    position: absolute;
-    display: block;
-    list-style: none;
-    width: 20px;
-    height: 20px;
-    background: rgba(255, 255, 255, 0.2);
-    animation: animate 25s linear infinite;
-    bottom: -150px;
-}
-
 .fade {
   transition: opacity 0.15s linear;
 }
