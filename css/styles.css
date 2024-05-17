@@ -11041,6 +11041,36 @@ html {
     line-height: 2.5rem;
   }
 }
+.interest-item {
+    position: relative;
+    text-align: center;
+}
+
+.interest-item img {
+    transition: transform 0.3s ease;
+}
+
+.interest-item img:hover {
+    transform: scale(1.1);
+}
+
+.interest-description {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+
+.interest-item:hover .interest-description {
+    display: block;
+}
+
 
 .footer {
   padding-top: 5rem;
